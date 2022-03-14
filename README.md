@@ -20,7 +20,7 @@ py -m ensurepip --upgrade
 Step 1. Clone the HudlProject Selenium Repository.
 
 ```
-git clone https://github.com/LambdaTest/Python-Behave-Selenium
+git clone https://github.com/Shamitty/HudlAssessment
 ```
 
 Step 2. Close and reopen terminal to have pip take effect. Then install required packages.
