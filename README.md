@@ -65,4 +65,9 @@ behave -f allure_behave.formatter:AllureFormatter -o "C:\Git\PythonScripts\HudlP
 ```
 allure serve "C:\Git\PythonScripts\HudlProject\TestReports"
 ```
+ <b>You may have to install allure manually or add it to your system path variables</b>
+ <p align="center">
+  <b>For Mac:</b>
+  ```brew install allure
+  ```
 
