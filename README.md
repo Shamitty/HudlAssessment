@@ -23,7 +23,16 @@ Step 1. Clone the HudlProject Selenium Repository.
 git clone https://github.com/Shamitty/HudlAssessment
 ```
 
-Step 2. Close and reopen terminal to have pip take effect. Then install required packages.
+Step 2. Download Chromedriver. You will download the version of your Chrome Instance.
+```
+https://chromedriver.chromium.org/downloads
+```
+<b>Where you downloaded your chromedriver instance, that is where you'll need to specify in the code on line 19 of HudlLoginSteps</b>
+```
+ context.driver = webdriver.Chrome("<Change it here>")
+```
+
+Step 3. Close and reopen terminal to have pip take effect. Then install required packages.
 
 ```
 pip install -r requirements.txt
